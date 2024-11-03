@@ -35,7 +35,7 @@ Vanuatu, Italy, Russia, US and China TSP plots are displayed below in this order
 🏆 **10_000 generations for Russia, US and China**: since the result obtained with only 10_000 generations is not that far from optimal (34866.38 vs 32722.50 for *Russia* and 46719.28 vs 39016.62 for *US*), the algorithm should not be badly structured. Probably with a greater `POPULATION_SIZE` (*e.g.* 20_000 for US instance, 100_000 for China instance), it would reach the optimum.
 The process would become very expensive in computational terms and my calculator (a humble and now old laptop) isn't that good. It takes tens of minutes, also hours to calculate the result :(. 
 
-🎯 Trying with a number of generations equal to 100_000 for *China* and waiting 200 minutes (process not yet finished, interrupted by keyboard, so a minor number of generations completed), the best path is the one shown in the sixth plot.
+🎯 Trying with a number of generations equal to 100_000 for *China* and waiting 200 minutes (process not yet finished, interrupted by keyboard, so a minor number of generations completed), the best path is the one shown in the sixth plot. If you waited exactly 100_000 generations (more than 200 minutes on my laptop), you would probably get a better result.
 
 <img src="plots/tsp_best_route_vanuatu.png" alt="TSP Vanuatu Route" width="500"/>
 <img src="plots/tsp_best_route_italy.png" alt="TSP Italy Route" width="500"/>
