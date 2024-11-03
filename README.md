@@ -27,7 +27,7 @@ The **evolutionary** algorithm iteratively evolves a population of individuals o
 
 The process of cross-over, mutation and hill climbing continues until the number of generated offsprings reaches the desidered size (`OFFSPRING_SIZE`). Then, the population is extended and only the fittest `POPULATION_SIZE` individuals are retained for the next generation.
 
-## Routes Plots
+## Routes Plots and Conclusions
 Vanuatu, Italy, Russia, US and China TSP plots are displayed below in this order. The first plot refers to Vanuatu, the second plot to Italy etc. 
 
 ⚠️ While the optimal solution was achieved for the first two instances (Vanuatu and Italy), there is certainly room for improvement for the next three, despite numerous experiments being carried out. There have been various mutation and crossing over strategies tested and various combinations of parameters `CROSSOVER_PROBABILITY`, `OFFSPRING_SIZE` and `MAX_ATTEMPTS`, but the algorithm did not lead to better solutions than those reported below. 
