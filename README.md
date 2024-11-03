@@ -33,13 +33,14 @@ Vanuatu, Italy, Russia, US and China TSP plots are displayed below in this order
 ⚠️ While the optimal solution was achieved for the first two instances (Vanuatu and Italy), there is certainly room for improvement for the next three, despite numerous experiments being carried out. There have been various mutation and crossing over strategies tested and various combinations of parameters `CROSSOVER_PROBABILITY`, `OFFSPRING_SIZE` and `MAX_ATTEMPTS`, but the algorithm did not lead to better solutions than those reported below. 
 
 🏆 **10_000 generations for Russia, US and China**: since the result obtained with only 10_000 generations is not that far from optimal (34866.38 vs 32722.50 for *Russia* and 46719.28 vs 39016.62 for *US*), the algorithm should not be badly structured. Probably with a greater `POPULATION_SIZE` (*e.g.* 20_000 for US instance, 100_000 for China instance), it would reach the optimum.
-The process would become very expensive in computational terms and my calculator (a humble and now old laptop) isn't that good. It takes tens of minutes, also hours to calculate the result :(.
+The process would become very expensive in computational terms and my calculator (a humble and now old laptop) isn't that good. It takes tens of minutes, also hours to calculate the result :(. Trying with a number of generations equal to 100_000 and waiting 200 minutes (process not yet finished), the result of the sixth figure is obtained.
 
 <img src="plots/tsp_best_route_vanuatu.png" alt="TSP Vanuatu Route" width="500"/>
 <img src="plots/tsp_best_route_italy.png" alt="TSP Italy Route" width="500"/>
 <img src="plots/tsp_best_route_russia.png" alt="TSP Russia Route" width="500"/>
 <img src="plots/tsp_best_route_us.png" alt="TSP US Route" width="500"/>
 <img src="plots/tsp_best_route_china.png" alt="TSP China Route" width="500"/>
+<img src="plots/tsp_best_route_china_100_000.png" alt="TSP China Route 100_000" width="500"/>
 
 ## Contributions 
 If you have any advice and you want to contribute to this project, don't hesitate to open an issue, fork the repository and submit a pull request.
